@@ -184,7 +184,7 @@ extension ViewController {
 			if status == .result {
 				self?.performSegue(withIdentifier: "result", sender: self)
 			} else if status == .error {
-				self?.displayAlert(title: "Error", message: self?.viewModel.errorMessage ?? "")
+				self?.performSegue(withIdentifier: "result", sender: nil)
 			}
 		})
 	}

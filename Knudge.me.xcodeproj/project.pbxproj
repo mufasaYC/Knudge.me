@@ -13,7 +13,6 @@
 		0730BC042001788200D5DE19 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730BC032001788200D5DE19 /* ResultViewController.swift */; };
 		0730BC06200178E300D5DE19 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730BC05200178E300D5DE19 /* ResultViewModel.swift */; };
 		0730BC0C200196CE00D5DE19 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730BC0B200196CE00D5DE19 /* Extension+UIViewController.swift */; };
-		0730BC1020019A3B00D5DE19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0730BC0F20019A3B00D5DE19 /* Info.plist */; };
 		0730BC12200274A700D5DE19 /* ResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730BC11200274A700D5DE19 /* ResponseCell.swift */; };
 		0730BC14200274E900D5DE19 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730BC13200274E900D5DE19 /* ResponseViewController.swift */; };
 		0730BC162002756500D5DE19 /* ResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730BC152002756500D5DE19 /* ResponseViewModel.swift */; };
@@ -213,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0730BC1020019A3B00D5DE19 /* Info.plist in Resources */,
 				074600C91FFEC5A0004BB965 /* LaunchScreen.storyboard in Resources */,
 				074600C61FFEC5A0004BB965 /* Assets.xcassets in Resources */,
 				074600C11FFEC5A0004BB965 /* Main.storyboard in Resources */,
@@ -366,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -283,7 +283,7 @@
                                         </state>
                                         <connections>
                                             <action selector="startGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rv1-Qe-wnq"/>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" id="6uE-na-534"/>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" identifier="home" id="6uE-na-534"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -673,8 +673,7 @@
         <image name="timer" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Zzj-iZ-jMp"/>
-        <segue reference="5q3-5J-rP3"/>
+        <segue reference="xe7-be-4ec"/>
         <segue reference="6uE-na-534"/>
     </inferredMetricsTieBreakers>
 </document>
